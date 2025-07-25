@@ -12,6 +12,8 @@ state соответствует указанному значению.
 
 [ссылка на гит хаб](https://github.com/Olga-zavlekalka/houme_work1.git)
 
-2. Установите зависимости:
-```
-pip install -r requirements.txt
+## Установите зависимости:
+```если используете виртуальное окуржение (.venv и др.) то команда 
+pip install requirements.txt
+при испльзовании Вами poetry используйте вот эту команду -
+ poetry install ```
