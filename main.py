@@ -6,9 +6,9 @@ if __name__ == "__main__":
     # Пример использования функции
 
     # Входной аргумент
-    card_number = "7000792289606361"
+    #card_number = "7000792289606361"
 
-    print(get_mask_card_number(card_number))
+    #print(get_mask_card_number(card_number))
 
     # Входной аргумент
     account_number = "73654108430135874305"
@@ -24,7 +24,7 @@ if __name__ == "__main__":
     str_number5 = "Visa Platinum 8990922113665229"
     str_number6 = "Visa Gold 5999414228426353"
     str_number7 = "Счет 73654108430135874305"
-    print(mask_account_card(str_number))
+#    print(mask_account_card(str_number))
     print(mask_account_card(str_number1))
     print(mask_account_card(str_number2))
     print(mask_account_card(str_number3))
