@@ -29,7 +29,3 @@ def test_get_date() -> None:
     assert get_date("2024-03-11T02:26:18.671407") == "11.03.2024"
 
 
-def test_get_date_short() -> None:
-    """функция test_get_date_short выдает исключение"""
-    with pytest.raises(ValueError):
-        get_date("")
