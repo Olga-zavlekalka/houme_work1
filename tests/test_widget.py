@@ -27,5 +27,5 @@ def test_mask_account_card() -> None:
 def test_get_date() -> None:
     """функция test_get_date тестирует разные вводные данные по дате"""
     assert get_date("2024-03-11T02:26:18.671407") == "11.03.2024"
-
-
+    with pytest.raises(ValueError):
+        get_date("")
